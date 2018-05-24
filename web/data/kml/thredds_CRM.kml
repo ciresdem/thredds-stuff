@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="thredds_CRM" id="thredds_CRM">
+	<SimpleField name="Title" type="string"></SimpleField>
+	<SimpleField name="Data" type="string"></SimpleField>
+	<SimpleField name="NC" type="string"></SimpleField>
+	<SimpleField name="Metadata" type="string"></SimpleField>
+	<SimpleField name="NCML" type="string"></SimpleField>
+	<SimpleField name="WMS" type="string"></SimpleField>
+	<SimpleField name="WCS" type="string"></SimpleField>
+	<SimpleField name="maxx" type="string"></SimpleField>
+	<SimpleField name="minx" type="string"></SimpleField>
+	<SimpleField name="maxy" type="string"></SimpleField>
+	<SimpleField name="miny" type="string"></SimpleField>
+	<SimpleField name="Resolution" type="string"></SimpleField>
+	<SimpleField name="zvar" type="string"></SimpleField>
+</Schema>
+<Folder><name>thredds_CRM</name>
+  <Placemark>
+	<name>crm_vol9</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume 9 - Puerto Rico</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_vol9.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_vol9.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_vol9.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_vol9.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_vol9.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_vol9.nc</SimpleData>
+		<SimpleData name="maxx">-64.000000</SimpleData>
+		<SimpleData name="minx">-68.000000</SimpleData>
+		<SimpleData name="maxy">20.000000</SimpleData>
+		<SimpleData name="miny">16.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-68,20,0 -68,16,0 -64,16,0 -64,20,0 -68,20,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_vol8</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume 8 - Northwest Pacific</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_vol8.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_vol8.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_vol8.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_vol8.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_vol8.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_vol8.nc</SimpleData>
+		<SimpleData name="maxx">-116.000000</SimpleData>
+		<SimpleData name="minx">-128.000000</SimpleData>
+		<SimpleData name="maxy">49.000000</SimpleData>
+		<SimpleData name="miny">44.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-128,49,0 -128,44,0 -116,44,0 -116,49,0 -128,49,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_vol7</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume 7 - Central Pacific</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_vol7.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_vol7.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_vol7.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_vol7.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_vol7.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_vol7.nc</SimpleData>
+		<SimpleData name="maxx">-117.000000</SimpleData>
+		<SimpleData name="minx">-128.000000</SimpleData>
+		<SimpleData name="maxy">44.000000</SimpleData>
+		<SimpleData name="miny">37.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-128,44,0 -128,37,0 -117,37,0 -117,44,0 -128,44,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_vol6</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume 6 - Southern California</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_vol6.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_vol6.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_vol6.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_vol6.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_vol6.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_vol6.nc</SimpleData>
+		<SimpleData name="maxx">-114.000000</SimpleData>
+		<SimpleData name="minx">-126.000000</SimpleData>
+		<SimpleData name="maxy">37.000000</SimpleData>
+		<SimpleData name="miny">32.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-126,37,0 -126,32,0 -114,32,0 -114,37,0 -126,37,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_vol5</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume 5 - Western Gulf of Mexico</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_vol5.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_vol5.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_vol5.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_vol5.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_vol5.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_vol5.nc</SimpleData>
+		<SimpleData name="maxx">-94.000000</SimpleData>
+		<SimpleData name="minx">-108.000000</SimpleData>
+		<SimpleData name="maxy">38.000000</SimpleData>
+		<SimpleData name="miny">24.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-108,38,0 -108,24,0 -94,24,0 -94,38,0 -108,38,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_vol4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume 4 - Central Gulf of Mexico</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_vol4.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_vol4.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_vol4.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_vol4.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_vol4.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_vol4.nc</SimpleData>
+		<SimpleData name="maxx">-87.000000</SimpleData>
+		<SimpleData name="minx">-94.000000</SimpleData>
+		<SimpleData name="maxy">36.000000</SimpleData>
+		<SimpleData name="miny">24.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94,36,0 -94,24,0 -87,24,0 -87,36,0 -94,36,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_vol3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume 3 - Florida and Eastern Gulf of Mexico</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_vol3.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_vol3.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_vol3.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_vol3.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_vol3.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_vol3.nc</SimpleData>
+		<SimpleData name="maxx">-78.000000</SimpleData>
+		<SimpleData name="minx">-87.000000</SimpleData>
+		<SimpleData name="maxy">35.000000</SimpleData>
+		<SimpleData name="miny">24.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87,35,0 -87,24,0 -78,24,0 -78,35,0 -87,35,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_vol2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume 2 - Southeast Atlantic</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_vol2.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_vol2.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_vol2.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_vol2.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_vol2.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_vol2.nc</SimpleData>
+		<SimpleData name="maxx">-68.000000</SimpleData>
+		<SimpleData name="minx">-85.000000</SimpleData>
+		<SimpleData name="maxy">40.000000</SimpleData>
+		<SimpleData name="miny">31.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85,40,0 -85,31,0 -68,31,0 -68,40,0 -85,40,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_vol10</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume 10 - Hawaii</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_vol10.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_vol10.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_vol10.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_vol10.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_vol10.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_vol10.nc</SimpleData>
+		<SimpleData name="maxx">-152.000000</SimpleData>
+		<SimpleData name="minx">-162.000000</SimpleData>
+		<SimpleData name="maxy">24.000000</SimpleData>
+		<SimpleData name="miny">18.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-162,24,0 -162,18,0 -152,18,0 -152,24,0 -162,24,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_vol1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume 1 - Northeast Atlantic</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_vol1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_vol1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_vol1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_vol1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_vol1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_vol1.nc</SimpleData>
+		<SimpleData name="maxx">-64.000000</SimpleData>
+		<SimpleData name="minx">-80.000000</SimpleData>
+		<SimpleData name="maxy">48.000000</SimpleData>
+		<SimpleData name="miny">40.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80,48,0 -80,40,0 -64,40,0 -64,48,0 -80,48,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_southak</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume raphy  - Northeast Atlantic</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_southak.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_southak.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_southak.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_southak.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_southak.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_southak.nc</SimpleData>
+		<SimpleData name="maxx">-130.000000</SimpleData>
+		<SimpleData name="minx">170.000000</SimpleData>
+		<SimpleData name="maxy">66.500000</SimpleData>
+		<SimpleData name="miny">48.500000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>170.0,66.5,0 170.0,48.5,0 -130.0,48.5,0 -130.0,66.5,0 170.0,66.5,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_socal_3as_vers2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume ocal 3As V - Northeast Atlantic</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_socal_3as_vers2.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_socal_3as_vers2.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_socal_3as_vers2.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_socal_3as_vers2.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_socal_3as_vers2.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_socal_3as_vers2.nc</SimpleData>
+		<SimpleData name="maxx">-115.000000</SimpleData>
+		<SimpleData name="minx">-128.000000</SimpleData>
+		<SimpleData name="maxy">37.000000</SimpleData>
+		<SimpleData name="miny">30.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-128,37,0 -128,30,0 -115,30,0 -115,37,0 -128,37,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>crm_socal_1as_vers2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume ocal 1As V - Northeast Atlantic</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_socal_1as_vers2.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_socal_1as_vers2.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_socal_1as_vers2.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/crm/crm_socal_1as_vers2.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/crm/crm_socal_1as_vers2.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/crm/crm_socal_1as_vers2.nc</SimpleData>
+		<SimpleData name="maxx">-116.000280</SimpleData>
+		<SimpleData name="minx">-123.000000</SimpleData>
+		<SimpleData name="maxy">36.999720</SimpleData>
+		<SimpleData name="miny">31.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-123.0,36.99972,0 -123,31,0 -116.00028,31.0,0 -116.00028,36.99972,0 -123.0,36.99972,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="thredds_global" id="thredds_global">
+	<SimpleField name="Title" type="string"></SimpleField>
+	<SimpleField name="Data" type="string"></SimpleField>
+	<SimpleField name="NC" type="string"></SimpleField>
+	<SimpleField name="Metadata" type="string"></SimpleField>
+	<SimpleField name="NCML" type="string"></SimpleField>
+	<SimpleField name="WMS" type="string"></SimpleField>
+	<SimpleField name="WCS" type="string"></SimpleField>
+	<SimpleField name="maxx" type="string"></SimpleField>
+	<SimpleField name="minx" type="string"></SimpleField>
+	<SimpleField name="maxy" type="string"></SimpleField>
+	<SimpleField name="miny" type="string"></SimpleField>
+	<SimpleField name="Resolution" type="string"></SimpleField>
+	<SimpleField name="zvar" type="string"></SimpleField>
+</Schema>
+<Folder><name>thredds_global</name>
+  <Placemark>
+	<name>ETOPO1_Ice_g_gmt4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_global">
+		<SimpleData name="Title">Etopo1 Ice</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/global/catalog.html?dataset=globalDatasetScan/ETOPO1_Ice_g_gmt4.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/global/ETOPO1_Ice_g_gmt4.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/global/ETOPO1_Ice_g_gmt4.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/global/ETOPO1_Ice_g_gmt4.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/global/ETOPO1_Ice_g_gmt4.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/global/ETOPO1_Ice_g_gmt4.nc</SimpleData>
+		<SimpleData name="maxx">180.000000</SimpleData>
+		<SimpleData name="minx">-180.000000</SimpleData>
+		<SimpleData name="maxy">90.000000</SimpleData>
+		<SimpleData name="miny">-90.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-180,90,0 -180,-90,0 180,-90,0 180,90,0 -180,90,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ETOPO1_Bed_g_gmt4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_global">
+		<SimpleData name="Title">Etopo1 Bed</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/global/catalog.html?dataset=globalDatasetScan/ETOPO1_Bed_g_gmt4.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/global/ETOPO1_Bed_g_gmt4.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/global/ETOPO1_Bed_g_gmt4.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/global/ETOPO1_Bed_g_gmt4.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/global/ETOPO1_Bed_g_gmt4.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/global/ETOPO1_Bed_g_gmt4.nc</SimpleData>
+		<SimpleData name="maxx">180.000000</SimpleData>
+		<SimpleData name="minx">-180.000000</SimpleData>
+		<SimpleData name="maxy">90.000000</SimpleData>
+		<SimpleData name="miny">-90.000000</SimpleData>
+		<SimpleData name="Resolution">0.000000</SimpleData>
+		<SimpleData name="zvar">z</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-180,90,0 -180,-90,0 180,-90,0 180,90,0 -180,90,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

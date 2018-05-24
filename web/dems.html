@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>NCEI Coastal Digital Elevation Models</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://openlayers.org/en/v4.3.2/css/ol.css" type="text/css">
+  <link rel="shortcut icon" href="https://www.ngdc.noaa.gov/favicon.ico">
+  <script type="text/javascript" src="https://www.ngdc.noaa.gov/js/jquery-3.1.1.min.js"></script>
+  <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+  <script src="https://openlayers.org/en/v4.3.2/build/ol.js"></script>
+
+</head>
+<body>
+<style>
+  body {
+  padding: 0;
+  margin: 0;
+  }
+  
+  html, body, #map {
+  height: 100%;
+  width: 100%;
+  overflow:hidden;
+  }
+  
+  #map { position:absolute; top:0; bottom:0; width:75%; height: 97%}
+
+  #floatbox {
+  background-color: rgba(240, 240, 240, 0.8);
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 25%;
+  min-width: 300px;
+  height: 97%;
+  border: none;
+  position:absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 10;
+  }
+
+  #info {
+  width: 100%;
+  background-color: rgba(240, 240, 240, 0.1);
+  max-height: 80%;
+  overflow:auto;
+  padding: 4px;
+  margin: 1em 0;
+  z-index: 20;
+  }
+  
+  #select {
+  width: 100%;
+  background-color: rgba(240, 240, 240, 0.8);
+  padding: 4px;
+  border:2px solid #ccc;
+  }
+  
+  .cires-maplogo {
+  opacity: .5;
+  position:absolute;
+  display:block;
+  height: 72px;
+  width: 72px;
+  bottom: 30px;
+  left: 10px;
+  text-indent: -9999px;
+  z-index:10;
+  overflow:hidden;
+  background-image: url(http://www.noaa.gov/sites/all/themes/custom/noaa/images/noaa_logo_circle_72x72.svg);
+  background-repeat:no-repeat;
+  background-position: 0 0 ;
+  background-size: 72px 72px;
+  }
+ 
+  #foot {
+  font-size: 10px;
+  position:absolute;
+  background-color: rgba(240, 240, 240, 0.8);
+  width: 100%;
+  height: 3%;
+  min-height: 20px;
+  padding: 5px;
+  left: 0px;
+  bottom: 0px;
+  z-index:99999;
+  display:block;
+  }
+
+  .aleft {
+  float: left;
+  }
+  
+  .aright {
+  float: right;
+  }
+  
+  <!-- .ol-zoom { -->
+  <!-- left: unset; -->
+  <!-- right: 10px; -->
+  <!-- } -->
+
+  <!-- .ol-attribution { -->
+  <!-- top: 60px; -->
+  <!-- left: 7px; -->
+  <!-- text-align: left; -->
+  <!-- width: 10px; -->
+  <!-- height: 10px; -->
+  <!-- } -->
+  <!-- .ol-attribution { -->
+  <!-- text-align: left; -->
+  <!-- top: 10px; -->
+  <!-- left: 30px; -->
+  <!-- border-radius: 4px 0 0; -->
+  <!-- line-height: 2em; -->
+  <!-- } -->
+
+  <!-- .ol-attribution { -->
+  <!-- text-align: left; -->
+  <!-- top: 10px; -->
+  <!-- left: 40px; -->
+  <!-- border-radius: 4px 0 0; -->
+  <!-- line-height: 2em; -->
+  <!-- } -->
+
+  <!-- .ol-attribution ul { -->
+  <!-- margin: 0; -->
+  <!-- padding: 0 .5em; -->
+  <!-- font-size: .8rem; -->
+  <!-- line-height: 1.375em; -->
+  <!-- color: #000; -->
+  <!-- text-shadow: 0 0 2px #fff; -->
+  <!-- width: 25em; -->
+  <!-- height: 4em; -->
+  <!-- max-width: calc(100% - 3.6em); -->
+  <!-- } -->
+
+  #dropdown {
+  backgroundcolor: #eee;
+  }
+  
+  hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  background-color: #ccc;
+  margin: 0;
+  }
+  
+  a.menuLinks {
+  cursor: pointer;
+  }
+  
+  #dataLink {
+  background-color: rgba(240, 240, 240, 0.1);
+  z-index: 20;
+  }
+
+  * {
+  font-family: Palatino Linotype', 'Book Antiqua', Palatino, sans-serif;
+  text-rendering: optimizeLegibility !important; 
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  }
+  
+</style>
+<div id="test1">
+  <div id="map" class="map"></div>
+  <a href="https://ngdc.noaa.gov/mgg/coastal/coastal.html" class="cires-maplogo" target="_blank">CIRES</a>
+</div>
+<div id="floatbox" class="floatbox">
+  <center><h4>NCEI Digital Elevation Models</h4></center><hr /><br />
+  <div id="dropdown" title="Select DEM Dataset" class="dropdown">
+    <select id="select" onchange="this.selectedindex = 0" autocomplete="off">
+      <option value="Regional">NCEI Regional Digital Elevation Models </option>
+      <option value="CRM">Coastal Releif Models </option>
+      <option value="PMEL">PMEL Model Grids</option>
+      <option value="Global">Global Datasets</option>
+      <option value="DEM Tiles">NCEI Tiled Digital Elevation Models</option>
+      <option value="All">All Digital Elevation Models </option>
+    </select>
+  </div>
+  <div id="info"><strong>Data Access:</strong> <a class="clearSel" id="clearSel"></a>
+    <div id="dataLink">
+      <br />
+      <small>
+	<code>Click</code> Select DEM tiles on the map<br />
+	<code>Shift+Click</code> select/deselect multiple DEMs<br />
+	<code>Ctrl+Drag</code> select and subset DEMs<br />
+      </small>
+    </div><br />
+    <hr /><br />
+    <p align="justify"><small>NCEI builds and distributes high-resolution, coastal digital elevation models (DEMs) that integrate ocean bathymetry and land topography to support NOAA's mission to understand and predict changes in Earth's environment, and conserve and manage coastal and marine resources to meet our Nation's economic, social, and environmental needs.</small> </p>
+  </div>
+</div>
+<div id="foot">
+  <p class="aleft" id="coords"> &nbsp;</p>
+  <p class="aright"> <a href="http://ciresgroups.colorado.edu/coastalDEM/">CIRES Coastal</a> | <a href="https://ngdc.noaa.gov/mgg/coastal/coastal.html">NCEI Coastal</a> | <a title="NCEI THREDDS Catalog" href="https://www.ngdc.noaa.gov/thredds/demCatalog.html">THREDDS DEM Catalog</a>&nbsp;</p>
+</div>
+<script type="text/javascript" src="olmap.js"></script>
+</body>
+</html>
