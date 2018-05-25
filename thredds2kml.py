@@ -25,7 +25,7 @@ def create_polygon(coords):
 
 
 def get_coords(url_dict):
-
+    '''Get the coords for use in 'create_polygon' from thredds catalog of urls (dict)'''
     print url_dict['cat']
     f = urllib2.urlopen(url_dict['cat'])
     xmldoc = minidom.parseString(f.read())
@@ -40,35 +40,15 @@ def get_coords(url_dict):
         ds_name = node.attributes["name"].value
         print(ds_name)
         ds_url="%s%s" %(url_dict['ncml'], ds_name)
-        ## JSON DEM-LIST ##
+
+        ## Skip the thredds directory and process the dems:
         if ds_name != "Regional" and ds_name !="Coastal Relief Model by Volume" and ds_name !="PMEL" and ds_name != "Global" and ds_name != "tiled_3as" and ds_name != "tiled_1as" and ds_name != "tiled_13as" and ds_name != "tiled_19as" :
-            ##print("%s%s" %(url_dict['nc'], ds_name))
             dems={}
             g = urllib2.urlopen(ds_url)
             xmldoc2 = minidom.parseString(g.read())
-            #atts = xmldoc2.getElementsByTagName("ncml:attribute")
-            #print(ds_name)
-            # dems['DEMTitle'] = ds_name
-            # dems['Status'] = "Complete"
-            # dems['Link'] = "https://www.ngdc.noaa.gov/thredds/catalog/regional/catalog.html?dataset=regionalDatasetScan/%s" %(ds_name)
-            # dems['Spatial'] = "Unknown"
-            # dems['VDatum'] = "Unknown"
-            # dems['Year'] = "Unknown"
-            # dems['HDatum'] = "Unknown"
-                    
-            # for att in atts:
-            #     if att.attributes["name"].value=="geospatial_lon_resolution":
-            #         dems['Spatial'] = att.attributes["value"].value
-            #     if att.attributes["name"].value=="geospatial_bounds_vertical_crs":
-            #         dems['VDatum'] = att.attributes["value"].value
-            #     if att.attributes["name"].value=="geospatial_bounds_crs":
-            #         dems['HDatum'] = att.attributes["value"].value
-            #     if att.attributes["name"].value=="date_issued":
-            #         dems['Year'] = att.attributes["value"].value
-                            
-            # dem_dicts.append(dems)
             ds_title = None
-            ## DEM KML ##
+
+            ## Fill values for resulting KML
             ds_atts = xmldoc2.getElementsByTagName("ncml:attribute")
             for ds_att in ds_atts:
                 if ds_att.attributes["name"].value == "title":
@@ -144,11 +124,9 @@ def get_coords(url_dict):
 
             groups = xmldoc2.getElementsByTagName("group")
             for group in groups:
-                #print(group.attributes["name"].value)
                 if group.attributes["name"].value == "CFMetadata":
                     bounds = group.getElementsByTagName("attribute")
                     if bounds:
-                        #print(bounds)
                         wl=-9999
                         el=-9999
                         sl=-9999
@@ -167,47 +145,17 @@ def get_coords(url_dict):
                             if bound.attributes["name"].value == "geospatial_lon_resolution":
                                 dem_res = float(bound.attributes["value"].value)
 
-                    
-                        #if dem_res > 0.0001 and dem_res != -9999:
-                        #print(dem_res)
                         if wl > 180: wl = wl-360
                         if el > 180: el = el-360
-                        # if wl == -180: wl = wl+.5
-                        # if el == 180: el = el-.5
-                        # if sl == -90: sl = sl+.5
-                        # if nl == 90: nl = nl-.5
                         lv1_coords = [ds_name[:-3], ds_title, zvar, (wl, nl), (wl, sl), (el, sl), (el, nl), (wl, nl)]
-                        #print lv1_coords
                         all_coords.append(lv1_coords)
-                        #else:
-                         #   lv2_coords = [ds_name, (wl, nl), (wl, sl), (el, sl), (el, nl), (wl, nl)]
-                          #  all_coords.insert(0,lv2_coords)
-                        # elif dem_res < 0.0006:
-                        #     lv2_coords = [ds_name, (wl, nl), (wl, sl), (el, sl), (el, nl), (wl, nl)]
-                        #     all_coords.append(lv1_coords)
-                        # else:
-                        #     lv3_coords = [ds_name, (wl, nl), (wl, sl), (el, sl), (el, nl), (wl, nl)]
-                        #     all_coords.append(lv1_coords)
-                            
-
             g.close()
         dem_data['data']=dem_dicts
-        #for i in lv3_coords:
-          #  all_coords.append(i)
-        #for i in lv2_coords:
-         #   all_coords.append(i)
-        #for i in lv1_coords:
-         #   all_coords.append(i)
-         #all_coords.append(lv1_coords)
-        
     f.close()
-    #pprint.pprint(dem_data)
-    #json_data = json.dumps(dem_data)
-    #print(json_data)
     return all_coords
 
 def make_shp(coords, url_dict, res):
-    ## OGR STUFF ##
+    ''' Make the kml using ogr '''
     driver = ogr.GetDriverByName('KML')
     ds = driver.CreateDataSource("thredds_%s.kml" %(url_dict['name']))
     layer = ds.CreateLayer("thredds_%s" %(url_dict['name']), None, ogr.wkbPolygon)
@@ -254,17 +202,10 @@ def make_shp(coords, url_dict, res):
     layer.CreateField(ogr.FieldDefn('zvar', ogr.OFTString))
     defn = layer.GetLayerDefn()
     
-    #import coords
-    #print all_coords
     for coord in coords:
-        #print coord
         ds_name = coord[0]
-        #print(ds_name)
         if coord[3][0] >= -180 and coord[3][0] <= 180:
             poly = create_polygon(coord[3:])
-            #print(poly)
-            # Create a new feature (attribute and geometry)
-            #print('creating feature')
             feat = ogr.Feature( layer.GetLayerDefn())
             feat.SetField("Name", str(ds_name))
             feat.SetField("Title", str(coord[1]))
@@ -280,7 +221,6 @@ def make_shp(coords, url_dict, res):
             feat.SetField("maxy", str("%f" %(coord[3][1])))
             feat.SetField("Resolution", str("%f" %(res)))
             feat.SetField("zvar", str("%s" %(coord[2])))
-            #print('creating geom')
             geom = ogr.CreateGeometryFromWkt(poly)
             feat.SetGeometry(geom)
             layer.CreateFeature(feat)
@@ -288,6 +228,7 @@ def make_shp(coords, url_dict, res):
             feat = geom = None  # destroy these
     ds = layer = feat = geom = None
 
+## URL Dictionaries for the DEM projects
 crm_urls = {
     'name' : "CRM",
     'cat' : "https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.xml",
@@ -376,6 +317,8 @@ tiled_19as_urls = {
     'wcs' : "http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_19as/"
 }
 
+## Process each of the DEM projects and generate a KML of the DEM boundaries
+
 print("+--
  regional
 +--")
@@ -403,7 +346,7 @@ make_shp(coords, pmel_urls, 0)
 print("+--
   tiles
 +--")
-## Tiles ##
+
 coords = get_coords(tiled_3as_urls)
 make_shp(coords, tiled_3as_urls, 3)
 
