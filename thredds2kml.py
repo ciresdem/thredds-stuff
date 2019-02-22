@@ -319,33 +319,33 @@ tiled_19as_urls = {
 
 ## Process each of the DEM projects and generate a KML of the DEM boundaries
 
-print("+--
+print('''+--
  regional
-+--")
++--''')
 coords = get_coords(regional_urls)
 make_shp(coords, regional_urls, 0)
 
-print("+--
+print('''+--
   crm
-+--")
++--''')
 coords = get_coords(crm_urls)
 make_shp(coords, crm_urls, 0)
 
-print("+--
+print('''+--
   global
-+--")
++--''')
 coords = get_coords(global_urls)
 make_shp(coords, global_urls, 0)
 
-print("+--
+print('''+--
   pmel
-+--")
++--''')
 coords = get_coords(pmel_urls)
 make_shp(coords, pmel_urls, 0)
 
-print("+--
+print('''+--
   tiles
-+--")
++--''')
 
 coords = get_coords(tiled_3as_urls)
 make_shp(coords, tiled_3as_urls, 3)

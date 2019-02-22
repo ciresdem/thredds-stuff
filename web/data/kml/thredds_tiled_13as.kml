@@ -598,6 +598,926 @@
       <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.75051,38.75051,0 -74.75051,38.49949,0 -74.49949,38.49949,0 -74.49949,38.75051,0 -74.75051,38.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
   <Placemark>
+	<name>ncei13_n36x75_w075x75_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n36x75 w075x75 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n36x75_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n36x75_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n36x75_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n36x75_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n36x75_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n36x75_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-75.499490</SimpleData>
+		<SimpleData name="minx">-75.750510</SimpleData>
+		<SimpleData name="maxy">36.750510</SimpleData>
+		<SimpleData name="miny">36.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.75051,36.75051,0 -75.75051,36.49949,0 -75.49949,36.49949,0 -75.49949,36.75051,0 -75.75051,36.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n36x50_w075x75_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n36x50 w075x75 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n36x50_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n36x50_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n36x50_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n36x50_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n36x50_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n36x50_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-75.499490</SimpleData>
+		<SimpleData name="minx">-75.750510</SimpleData>
+		<SimpleData name="maxy">36.500510</SimpleData>
+		<SimpleData name="miny">36.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.75051,36.50051,0 -75.75051,36.24949,0 -75.49949,36.24949,0 -75.49949,36.50051,0 -75.75051,36.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n36x25_w075x50_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n36x25 w075x50 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n36x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n36x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n36x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n36x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n36x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n36x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-75.249490</SimpleData>
+		<SimpleData name="minx">-75.500510</SimpleData>
+		<SimpleData name="maxy">36.250510</SimpleData>
+		<SimpleData name="miny">35.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.50051,36.25051,0 -75.50051,35.99949,0 -75.24949,35.99949,0 -75.24949,36.25051,0 -75.50051,36.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n36x00_w075x50_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n36x00 w075x50 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n36x00_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n36x00_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n36x00_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n36x00_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n36x00_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n36x00_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-75.249490</SimpleData>
+		<SimpleData name="minx">-75.500510</SimpleData>
+		<SimpleData name="maxy">36.000510</SimpleData>
+		<SimpleData name="miny">35.749490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.50051,36.00051,0 -75.50051,35.74949,0 -75.24949,35.74949,0 -75.24949,36.00051,0 -75.50051,36.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n36x00_w075x25_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n36x00 w075x25 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n36x00_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n36x00_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n36x00_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n36x00_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n36x00_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n36x00_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-74.999490</SimpleData>
+		<SimpleData name="minx">-75.250510</SimpleData>
+		<SimpleData name="maxy">36.000510</SimpleData>
+		<SimpleData name="miny">35.749490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.25051,36.00051,0 -75.25051,35.74949,0 -74.99949,35.74949,0 -74.99949,36.00051,0 -75.25051,36.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n35x75_w075x25_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n35x75 w075x25 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n35x75_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n35x75_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n35x75_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n35x75_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n35x75_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n35x75_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-74.999490</SimpleData>
+		<SimpleData name="minx">-75.250510</SimpleData>
+		<SimpleData name="maxy">35.750510</SimpleData>
+		<SimpleData name="miny">35.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.25051,35.75051,0 -75.25051,35.49949,0 -74.99949,35.49949,0 -74.99949,35.75051,0 -75.25051,35.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n35x50_w075x25_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n35x50 w075x25 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n35x50_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n35x50_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n35x50_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n35x50_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n35x50_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n35x50_w075x25_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-74.999490</SimpleData>
+		<SimpleData name="minx">-75.250510</SimpleData>
+		<SimpleData name="maxy">35.500510</SimpleData>
+		<SimpleData name="miny">35.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.25051,35.50051,0 -75.25051,35.24949,0 -74.99949,35.24949,0 -74.99949,35.50051,0 -75.25051,35.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n35x25_w075x50_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n35x25 w075x50 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n35x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n35x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n35x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n35x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n35x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n35x25_w075x50_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-75.249490</SimpleData>
+		<SimpleData name="minx">-75.500510</SimpleData>
+		<SimpleData name="maxy">35.250510</SimpleData>
+		<SimpleData name="miny">34.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.50051,35.25051,0 -75.50051,34.99949,0 -75.24949,34.99949,0 -75.24949,35.25051,0 -75.50051,35.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n35x00_w076x00_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n35x00 w076x00 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n35x00_w076x00_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n35x00_w076x00_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n35x00_w076x00_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n35x00_w076x00_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n35x00_w076x00_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n35x00_w076x00_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-75.749490</SimpleData>
+		<SimpleData name="minx">-76.000510</SimpleData>
+		<SimpleData name="maxy">35.000510</SimpleData>
+		<SimpleData name="miny">34.749490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.00051,35.00051,0 -76.00051,34.74949,0 -75.74949,34.74949,0 -75.74949,35.00051,0 -76.00051,35.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n35x00_w075x75_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n35x00 w075x75 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n35x00_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n35x00_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n35x00_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n35x00_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n35x00_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n35x00_w075x75_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-75.499490</SimpleData>
+		<SimpleData name="minx">-75.750510</SimpleData>
+		<SimpleData name="maxy">35.000510</SimpleData>
+		<SimpleData name="miny">34.749490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.75051,35.00051,0 -75.75051,34.74949,0 -75.49949,34.74949,0 -75.49949,35.00051,0 -75.75051,35.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n34x75_w076x25_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n34x75 w076x25 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n34x75_w076x25_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n34x75_w076x25_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n34x75_w076x25_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n34x75_w076x25_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n34x75_w076x25_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n34x75_w076x25_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-75.999490</SimpleData>
+		<SimpleData name="minx">-76.250510</SimpleData>
+		<SimpleData name="maxy">34.750510</SimpleData>
+		<SimpleData name="miny">34.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.25051,34.75051,0 -76.25051,34.49949,0 -75.99949,34.49949,0 -75.99949,34.75051,0 -76.25051,34.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n31x00_w081x25_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n31x00 w081x25 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n31x00_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n31x00_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n31x00_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n31x00_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n31x00_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n31x00_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-80.999490</SimpleData>
+		<SimpleData name="minx">-81.250510</SimpleData>
+		<SimpleData name="maxy">31.000510</SimpleData>
+		<SimpleData name="miny">30.749490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.25051,31.00051,0 -81.25051,30.74949,0 -80.99949,30.74949,0 -80.99949,31.00051,0 -81.25051,31.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n30x75_w081x25_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n30x75 w081x25 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n30x75_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n30x75_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n30x75_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n30x75_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n30x75_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n30x75_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-80.999490</SimpleData>
+		<SimpleData name="minx">-81.250510</SimpleData>
+		<SimpleData name="maxy">30.750510</SimpleData>
+		<SimpleData name="miny">30.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.25051,30.75051,0 -81.25051,30.49949,0 -80.99949,30.49949,0 -80.99949,30.75051,0 -81.25051,30.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n30x50_w081x25_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n30x50 w081x25 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n30x50_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n30x50_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n30x50_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n30x50_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n30x50_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n30x50_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-80.999490</SimpleData>
+		<SimpleData name="minx">-81.250510</SimpleData>
+		<SimpleData name="maxy">30.500510</SimpleData>
+		<SimpleData name="miny">30.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.25051,30.50051,0 -81.25051,30.24949,0 -80.99949,30.24949,0 -80.99949,30.50051,0 -81.25051,30.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n30x25_w081x25_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n30x25 w081x25 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n30x25_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n30x25_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n30x25_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n30x25_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n30x25_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n30x25_w081x25_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-80.999490</SimpleData>
+		<SimpleData name="minx">-81.250510</SimpleData>
+		<SimpleData name="maxy">30.250510</SimpleData>
+		<SimpleData name="miny">29.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.25051,30.25051,0 -81.25051,29.99949,0 -80.99949,29.99949,0 -80.99949,30.25051,0 -81.25051,30.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x75_w081x00_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x75 w081x00 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x75_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x75_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x75_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x75_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x75_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x75_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-80.749490</SimpleData>
+		<SimpleData name="minx">-81.000510</SimpleData>
+		<SimpleData name="maxy">29.750510</SimpleData>
+		<SimpleData name="miny">29.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.00051,29.75051,0 -81.00051,29.49949,0 -80.74949,29.49949,0 -80.74949,29.75051,0 -81.00051,29.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x50_w094x50_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x50 w094x50 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x50_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x50_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x50_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x50_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x50_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x50_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-94.249490</SimpleData>
+		<SimpleData name="minx">-94.500510</SimpleData>
+		<SimpleData name="maxy">29.500510</SimpleData>
+		<SimpleData name="miny">29.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.50051,29.50051,0 -94.50051,29.24949,0 -94.24949,29.24949,0 -94.24949,29.50051,0 -94.50051,29.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x50_w094x25_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x50 w094x25 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x50_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x50_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x50_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x50_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x50_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x50_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-93.999490</SimpleData>
+		<SimpleData name="minx">-94.250510</SimpleData>
+		<SimpleData name="maxy">29.500510</SimpleData>
+		<SimpleData name="miny">29.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.25051,29.50051,0 -94.25051,29.24949,0 -93.99949,29.24949,0 -93.99949,29.50051,0 -94.25051,29.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x50_w094x00_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x50 w094x00 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x50_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x50_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x50_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x50_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x50_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x50_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-93.749490</SimpleData>
+		<SimpleData name="minx">-94.000510</SimpleData>
+		<SimpleData name="maxy">29.500510</SimpleData>
+		<SimpleData name="miny">29.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.00051,29.50051,0 -94.00051,29.24949,0 -93.74949,29.24949,0 -93.74949,29.50051,0 -94.00051,29.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x50_w093x75_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x50 w093x75 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x50_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x50_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x50_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x50_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x50_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x50_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-93.499490</SimpleData>
+		<SimpleData name="minx">-93.750510</SimpleData>
+		<SimpleData name="maxy">29.500510</SimpleData>
+		<SimpleData name="miny">29.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.75051,29.50051,0 -93.75051,29.24949,0 -93.49949,29.24949,0 -93.49949,29.50051,0 -93.75051,29.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x50_w081x00_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x50 w081x00 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x50_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x50_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x50_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x50_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x50_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x50_w081x00_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-80.749490</SimpleData>
+		<SimpleData name="minx">-81.000510</SimpleData>
+		<SimpleData name="maxy">29.500510</SimpleData>
+		<SimpleData name="miny">29.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.00051,29.50051,0 -81.00051,29.24949,0 -80.74949,29.24949,0 -80.74949,29.50051,0 -81.00051,29.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x25_w094x75_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x25 w094x75 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x25_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x25_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x25_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x25_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x25_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x25_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-94.499490</SimpleData>
+		<SimpleData name="minx">-94.750510</SimpleData>
+		<SimpleData name="maxy">29.250510</SimpleData>
+		<SimpleData name="miny">28.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.75051,29.25051,0 -94.75051,28.99949,0 -94.49949,28.99949,0 -94.49949,29.25051,0 -94.75051,29.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x25_w094x50_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x25 w094x50 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x25_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x25_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x25_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x25_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x25_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x25_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-94.249490</SimpleData>
+		<SimpleData name="minx">-94.500510</SimpleData>
+		<SimpleData name="maxy">29.250510</SimpleData>
+		<SimpleData name="miny">28.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.50051,29.25051,0 -94.50051,28.99949,0 -94.24949,28.99949,0 -94.24949,29.25051,0 -94.50051,29.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x25_w094x25_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x25 w094x25 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x25_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x25_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x25_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x25_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x25_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x25_w094x25_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-93.999490</SimpleData>
+		<SimpleData name="minx">-94.250510</SimpleData>
+		<SimpleData name="maxy">29.250510</SimpleData>
+		<SimpleData name="miny">28.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.25051,29.25051,0 -94.25051,28.99949,0 -93.99949,28.99949,0 -93.99949,29.25051,0 -94.25051,29.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x25_w094x00_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x25 w094x00 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x25_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x25_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x25_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x25_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x25_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x25_w094x00_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-93.749490</SimpleData>
+		<SimpleData name="minx">-94.000510</SimpleData>
+		<SimpleData name="maxy">29.250510</SimpleData>
+		<SimpleData name="miny">28.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.00051,29.25051,0 -94.00051,28.99949,0 -93.74949,28.99949,0 -93.74949,29.25051,0 -94.00051,29.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x25_w093x75_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x25 w093x75 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x25_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x25_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x25_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x25_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x25_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x25_w093x75_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-93.499490</SimpleData>
+		<SimpleData name="minx">-93.750510</SimpleData>
+		<SimpleData name="maxy">29.250510</SimpleData>
+		<SimpleData name="miny">28.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.75051,29.25051,0 -93.75051,28.99949,0 -93.49949,28.99949,0 -93.49949,29.25051,0 -93.75051,29.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x25_w080x75_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x25 w080x75 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x25_w080x75_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x25_w080x75_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x25_w080x75_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x25_w080x75_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x25_w080x75_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x25_w080x75_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-80.499490</SimpleData>
+		<SimpleData name="minx">-80.750510</SimpleData>
+		<SimpleData name="maxy">29.250510</SimpleData>
+		<SimpleData name="miny">28.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.75051,29.25051,0 -80.75051,28.99949,0 -80.49949,28.99949,0 -80.49949,29.25051,0 -80.75051,29.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x00_w095x00_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x00 w095x00 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x00_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x00_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x00_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x00_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x00_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x00_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-94.749490</SimpleData>
+		<SimpleData name="minx">-95.000510</SimpleData>
+		<SimpleData name="maxy">29.000510</SimpleData>
+		<SimpleData name="miny">28.749490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.00051,29.00051,0 -95.00051,28.74949,0 -94.74949,28.74949,0 -94.74949,29.00051,0 -95.00051,29.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x00_w094x75_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x00 w094x75 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x00_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x00_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x00_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x00_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x00_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x00_w094x75_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-94.499490</SimpleData>
+		<SimpleData name="minx">-94.750510</SimpleData>
+		<SimpleData name="maxy">29.000510</SimpleData>
+		<SimpleData name="miny">28.749490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.75051,29.00051,0 -94.75051,28.74949,0 -94.49949,28.74949,0 -94.49949,29.00051,0 -94.75051,29.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n29x00_w094x50_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n29x00 w094x50 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n29x00_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n29x00_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n29x00_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n29x00_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n29x00_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n29x00_w094x50_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-94.249490</SimpleData>
+		<SimpleData name="minx">-94.500510</SimpleData>
+		<SimpleData name="maxy">29.000510</SimpleData>
+		<SimpleData name="miny">28.749490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.50051,29.00051,0 -94.50051,28.74949,0 -94.24949,28.74949,0 -94.24949,29.00051,0 -94.50051,29.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x75_w095x50_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x75 w095x50 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x75_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x75_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x75_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x75_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x75_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x75_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-95.249490</SimpleData>
+		<SimpleData name="minx">-95.500510</SimpleData>
+		<SimpleData name="maxy">28.750510</SimpleData>
+		<SimpleData name="miny">28.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.50051,28.75051,0 -95.50051,28.49949,0 -95.24949,28.49949,0 -95.24949,28.75051,0 -95.50051,28.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x75_w095x25_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x75 w095x25 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x75_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x75_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x75_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x75_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x75_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x75_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-94.999490</SimpleData>
+		<SimpleData name="minx">-95.250510</SimpleData>
+		<SimpleData name="maxy">28.750510</SimpleData>
+		<SimpleData name="miny">28.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.25051,28.75051,0 -95.25051,28.49949,0 -94.99949,28.49949,0 -94.99949,28.75051,0 -95.25051,28.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x75_w095x00_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x75 w095x00 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x75_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x75_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x75_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x75_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x75_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x75_w095x00_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-94.749490</SimpleData>
+		<SimpleData name="minx">-95.000510</SimpleData>
+		<SimpleData name="maxy">28.750510</SimpleData>
+		<SimpleData name="miny">28.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.00051,28.75051,0 -95.00051,28.49949,0 -94.74949,28.49949,0 -94.74949,28.75051,0 -95.00051,28.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x75_w080x50_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x75 w080x50 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x75_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x75_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x75_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x75_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x75_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x75_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-80.249490</SimpleData>
+		<SimpleData name="minx">-80.500510</SimpleData>
+		<SimpleData name="maxy">28.750510</SimpleData>
+		<SimpleData name="miny">28.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.50051,28.75051,0 -80.50051,28.49949,0 -80.24949,28.49949,0 -80.24949,28.75051,0 -80.50051,28.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x50_w096x00_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x50 w096x00 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x50_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x50_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x50_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x50_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x50_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x50_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-95.749490</SimpleData>
+		<SimpleData name="minx">-96.000510</SimpleData>
+		<SimpleData name="maxy">28.500510</SimpleData>
+		<SimpleData name="miny">28.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.00051,28.50051,0 -96.00051,28.24949,0 -95.74949,28.24949,0 -95.74949,28.50051,0 -96.00051,28.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x50_w095x75_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x50 w095x75 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x50_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x50_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x50_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x50_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x50_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x50_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-95.499490</SimpleData>
+		<SimpleData name="minx">-95.750510</SimpleData>
+		<SimpleData name="maxy">28.500510</SimpleData>
+		<SimpleData name="miny">28.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.75051,28.50051,0 -95.75051,28.24949,0 -95.49949,28.24949,0 -95.49949,28.50051,0 -95.75051,28.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x50_w095x50_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x50 w095x50 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x50_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x50_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x50_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x50_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x50_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x50_w095x50_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-95.249490</SimpleData>
+		<SimpleData name="minx">-95.500510</SimpleData>
+		<SimpleData name="maxy">28.500510</SimpleData>
+		<SimpleData name="miny">28.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.50051,28.50051,0 -95.50051,28.24949,0 -95.24949,28.24949,0 -95.24949,28.50051,0 -95.50051,28.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x50_w095x25_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x50 w095x25 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x50_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x50_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x50_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x50_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x50_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x50_w095x25_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-94.999490</SimpleData>
+		<SimpleData name="minx">-95.250510</SimpleData>
+		<SimpleData name="maxy">28.500510</SimpleData>
+		<SimpleData name="miny">28.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.25051,28.50051,0 -95.25051,28.24949,0 -94.99949,28.24949,0 -94.99949,28.50051,0 -95.25051,28.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x50_w080x50_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x50 w080x50 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x50_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x50_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x50_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x50_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x50_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x50_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-80.249490</SimpleData>
+		<SimpleData name="minx">-80.500510</SimpleData>
+		<SimpleData name="maxy">28.500510</SimpleData>
+		<SimpleData name="miny">28.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.50051,28.50051,0 -80.50051,28.24949,0 -80.24949,28.24949,0 -80.24949,28.50051,0 -80.50051,28.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x25_w096x00_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x25 w096x00 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x25_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x25_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x25_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x25_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x25_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x25_w096x00_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-95.749490</SimpleData>
+		<SimpleData name="minx">-96.000510</SimpleData>
+		<SimpleData name="maxy">28.250510</SimpleData>
+		<SimpleData name="miny">27.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.00051,28.25051,0 -96.00051,27.99949,0 -95.74949,27.99949,0 -95.74949,28.25051,0 -96.00051,28.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x25_w095x75_2017v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x25 w095x75 (2017 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x25_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x25_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x25_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x25_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x25_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x25_w095x75_2017v1.nc</SimpleData>
+		<SimpleData name="maxx">-95.499490</SimpleData>
+		<SimpleData name="minx">-95.750510</SimpleData>
+		<SimpleData name="maxy">28.250510</SimpleData>
+		<SimpleData name="miny">27.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.75051,28.25051,0 -95.75051,27.99949,0 -95.49949,27.99949,0 -95.49949,28.25051,0 -95.75051,28.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x25_w080x50_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x25 w080x50 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x25_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x25_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x25_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x25_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x25_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x25_w080x50_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-80.249490</SimpleData>
+		<SimpleData name="minx">-80.500510</SimpleData>
+		<SimpleData name="maxy">28.250510</SimpleData>
+		<SimpleData name="miny">27.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.50051,28.25051,0 -80.50051,27.99949,0 -80.24949,27.99949,0 -80.24949,28.25051,0 -80.50051,28.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n28x00_w080x25_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n28x00 w080x25 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n28x00_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n28x00_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n28x00_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n28x00_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n28x00_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n28x00_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-79.999490</SimpleData>
+		<SimpleData name="minx">-80.250510</SimpleData>
+		<SimpleData name="maxy">28.000510</SimpleData>
+		<SimpleData name="miny">27.749490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.25051,28.00051,0 -80.25051,27.74949,0 -79.99949,27.74949,0 -79.99949,28.00051,0 -80.25051,28.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n27x75_w080x25_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n27x75 w080x25 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n27x75_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n27x75_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n27x75_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n27x75_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n27x75_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n27x75_w080x25_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-79.999490</SimpleData>
+		<SimpleData name="minx">-80.250510</SimpleData>
+		<SimpleData name="maxy">27.750510</SimpleData>
+		<SimpleData name="miny">27.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.25051,27.75051,0 -80.25051,27.49949,0 -79.99949,27.49949,0 -79.99949,27.75051,0 -80.25051,27.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n27x50_w080x00_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n27x50 w080x00 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n27x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n27x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n27x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n27x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n27x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n27x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-79.749490</SimpleData>
+		<SimpleData name="minx">-80.000510</SimpleData>
+		<SimpleData name="maxy">27.500510</SimpleData>
+		<SimpleData name="miny">27.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.00051,27.50051,0 -80.00051,27.24949,0 -79.74949,27.24949,0 -79.74949,27.50051,0 -80.00051,27.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n27x25_w080x00_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n27x25 w080x00 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n27x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n27x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n27x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n27x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n27x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n27x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-79.749490</SimpleData>
+		<SimpleData name="minx">-80.000510</SimpleData>
+		<SimpleData name="maxy">27.250510</SimpleData>
+		<SimpleData name="miny">26.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.00051,27.25051,0 -80.00051,26.99949,0 -79.74949,26.99949,0 -79.74949,27.25051,0 -80.00051,27.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
 	<name>ncei13_n27x00_w082x75_2017v1</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
@@ -618,6 +1538,26 @@
       <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.75051,27.00051,0 -82.75051,26.74949,0 -82.49949,26.74949,0 -82.49949,27.00051,0 -82.75051,27.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
   <Placemark>
+	<name>ncei13_n27x00_w080x00_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n27x00 w080x00 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n27x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n27x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n27x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n27x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n27x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n27x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-79.749490</SimpleData>
+		<SimpleData name="minx">-80.000510</SimpleData>
+		<SimpleData name="maxy">27.000510</SimpleData>
+		<SimpleData name="miny">26.749490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.00051,27.00051,0 -80.00051,26.74949,0 -79.74949,26.74949,0 -79.74949,27.00051,0 -80.00051,27.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
 	<name>ncei13_n26x75_w082x75_2017v1</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
@@ -636,6 +1576,26 @@
 		<SimpleData name="zvar">Band1</SimpleData>
 	</SchemaData></ExtendedData>
       <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.75051,26.75051,0 -82.75051,26.49949,0 -82.49949,26.49949,0 -82.49949,26.75051,0 -82.75051,26.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n26x75_w080x00_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n26x75 w080x00 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n26x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n26x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n26x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n26x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n26x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n26x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-79.749490</SimpleData>
+		<SimpleData name="minx">-80.000510</SimpleData>
+		<SimpleData name="maxy">26.750510</SimpleData>
+		<SimpleData name="miny">26.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.00051,26.75051,0 -80.00051,26.49949,0 -79.74949,26.49949,0 -79.74949,26.75051,0 -80.00051,26.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
   <Placemark>
 	<name>ncei13_n26x50_w082x75_2017v1</name>
@@ -676,6 +1636,26 @@
 		<SimpleData name="zvar">Band1</SimpleData>
 	</SchemaData></ExtendedData>
       <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.50051,26.50051,0 -82.50051,26.24949,0 -82.24949,26.24949,0 -82.24949,26.50051,0 -82.50051,26.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n26x50_w080x00_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n26x50 w080x00 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n26x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n26x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n26x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n26x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n26x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n26x50_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-79.749490</SimpleData>
+		<SimpleData name="minx">-80.000510</SimpleData>
+		<SimpleData name="maxy">26.500510</SimpleData>
+		<SimpleData name="miny">26.249490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.00051,26.50051,0 -80.00051,26.24949,0 -79.74949,26.24949,0 -79.74949,26.50051,0 -80.00051,26.50051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
   <Placemark>
 	<name>ncei13_n26x25_w082x75_2017v1</name>
@@ -738,6 +1718,26 @@
       <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.25051,26.25051,0 -82.25051,25.99949,0 -81.99949,25.99949,0 -81.99949,26.25051,0 -82.25051,26.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
   <Placemark>
+	<name>ncei13_n26x25_w080x00_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n26x25 w080x00 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n26x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n26x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n26x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n26x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n26x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n26x25_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-79.749490</SimpleData>
+		<SimpleData name="minx">-80.000510</SimpleData>
+		<SimpleData name="maxy">26.250510</SimpleData>
+		<SimpleData name="miny">25.999490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.00051,26.25051,0 -80.00051,25.99949,0 -79.74949,25.99949,0 -79.74949,26.25051,0 -80.00051,26.25051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
 	<name>ncei13_n26x00_w082x75_2017v1</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
@@ -796,6 +1796,46 @@
 		<SimpleData name="zvar">Band1</SimpleData>
 	</SchemaData></ExtendedData>
       <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.25051,26.00051,0 -82.25051,25.74949,0 -81.99949,25.74949,0 -81.99949,26.00051,0 -82.25051,26.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n26x00_w080x00_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n26x00 w080x00 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n26x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n26x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n26x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n26x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n26x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n26x00_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-79.749490</SimpleData>
+		<SimpleData name="minx">-80.000510</SimpleData>
+		<SimpleData name="maxy">26.000510</SimpleData>
+		<SimpleData name="miny">25.749490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.00051,26.00051,0 -80.00051,25.74949,0 -79.74949,25.74949,0 -79.74949,26.00051,0 -80.00051,26.00051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>ncei13_n25x75_w080x00_2018v1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thredds_tiled_13as">
+		<SimpleData name="Title">NCEI 1/3 arc-second Tiled DEM: n25x75 w080x00 (2018 - Version 1)</SimpleData>
+		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/tiles/tiled_13as/catalog.html?dataset=tilesDatasetScan/tiled_13as/ncei13_n25x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/tiles/tiled_13as/ncei13_n25x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/tiles/tiled_13as/ncei13_n25x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="NCML">https://www.ngdc.noaa.gov/thredds/ncml/tiles/tiled_13as/ncei13_n25x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WMS">http://www.ngdc.noaa.gov/thredds/wms/tiles/tiled_13as/ncei13_n25x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="WCS">http://www.ngdc.noaa.gov/thredds/wcs/tiles/tiled_13as/ncei13_n25x75_w080x00_2018v1.nc</SimpleData>
+		<SimpleData name="maxx">-79.749490</SimpleData>
+		<SimpleData name="minx">-80.000510</SimpleData>
+		<SimpleData name="maxy">25.750510</SimpleData>
+		<SimpleData name="miny">25.499490</SimpleData>
+		<SimpleData name="Resolution">13.000000</SimpleData>
+		<SimpleData name="zvar">Band1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.00051,25.75051,0 -80.00051,25.49949,0 -79.74949,25.49949,0 -79.74949,25.75051,0 -80.00051,25.75051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
   <Placemark>
 	<name>ncei13_n25x50_w081x50_2016v1</name>
