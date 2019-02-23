@@ -81,7 +81,10 @@ def get_coords(url_dict):
                     crmloc = "Puerto Rico"
                 elif vnum == "10":
                     crmloc = "Hawaii"
-                    
+                else:
+                    vnum = "N/A"
+                    crmloc = ds_title
+
                 ds_title = "NCEI Coastal Relief Model Volume %s - %s" %(vnum, crmloc)
                 
             if url_dict['name'] == 'global':
@@ -319,11 +322,11 @@ tiled_19as_urls = {
 
 ## Process each of the DEM projects and generate a KML of the DEM boundaries
 
-print('''+--
- regional
-+--''')
-coords = get_coords(regional_urls)
-make_shp(coords, regional_urls, 0)
+# print('''+--
+#  regional
+# +--''')
+# coords = get_coords(regional_urls)
+# make_shp(coords, regional_urls, 0)
 
 print('''+--
   crm
@@ -331,32 +334,32 @@ print('''+--
 coords = get_coords(crm_urls)
 make_shp(coords, crm_urls, 0)
 
-print('''+--
-  global
-+--''')
-coords = get_coords(global_urls)
-make_shp(coords, global_urls, 0)
+# print('''+--
+#   global
+# +--''')
+# coords = get_coords(global_urls)
+# make_shp(coords, global_urls, 0)
 
-print('''+--
-  pmel
-+--''')
-coords = get_coords(pmel_urls)
-make_shp(coords, pmel_urls, 0)
+# print('''+--
+#   pmel
+# +--''')
+# coords = get_coords(pmel_urls)
+# make_shp(coords, pmel_urls, 0)
 
-print('''+--
-  tiles
-+--''')
+# print('''+--
+#   tiles
+# +--''')
 
-coords = get_coords(tiled_3as_urls)
-make_shp(coords, tiled_3as_urls, 3)
+# coords = get_coords(tiled_3as_urls)
+# make_shp(coords, tiled_3as_urls, 3)
 
-coords = get_coords(tiled_1as_urls)
-make_shp(coords, tiled_1as_urls, 1)
+# coords = get_coords(tiled_1as_urls)
+# make_shp(coords, tiled_1as_urls, 1)
 
-coords = get_coords(tiled_13as_urls)
-make_shp(coords, tiled_13as_urls, 13)
+# coords = get_coords(tiled_13as_urls)
+# make_shp(coords, tiled_13as_urls, 13)
 
-coords = get_coords(tiled_19as_urls)
-make_shp(coords, tiled_19as_urls, 19)
-
+# coords = get_coords(tiled_19as_urls)
+# make_shp(coords, tiled_19as_urls, 19)
+                
 ### End

@@ -221,7 +221,7 @@
 	<name>crm_southak</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
-		<SimpleData name="Title">NCEI Coastal Relief Model Volume raphy  - Northeast Atlantic</SimpleData>
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume N/A - Topography Grid</SimpleData>
 		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_southak.nc</SimpleData>
 		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_southak.nc</SimpleData>
 		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_southak.nc</SimpleData>
@@ -241,7 +241,7 @@
 	<name>crm_socal_3as_vers2</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
-		<SimpleData name="Title">NCEI Coastal Relief Model Volume ocal 3As V - Northeast Atlantic</SimpleData>
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume N/A - Crm Socal 3As Vers2</SimpleData>
 		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_socal_3as_vers2.nc</SimpleData>
 		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_socal_3as_vers2.nc</SimpleData>
 		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_socal_3as_vers2.nc</SimpleData>
@@ -261,7 +261,7 @@
 	<name>crm_socal_1as_vers2</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#thredds_CRM">
-		<SimpleData name="Title">NCEI Coastal Relief Model Volume ocal 1As V - Northeast Atlantic</SimpleData>
+		<SimpleData name="Title">NCEI Coastal Relief Model Volume N/A - Crm Socal 1As Vers2</SimpleData>
 		<SimpleData name="Data">https://www.ngdc.noaa.gov/thredds/catalog/crm/catalog.html?dataset=crmDatasetScan/crm_socal_1as_vers2.nc</SimpleData>
 		<SimpleData name="NC">https://www.ngdc.noaa.gov/thredds/fileServer/crm/crm_socal_1as_vers2.nc</SimpleData>
 		<SimpleData name="Metadata">https://www.ngdc.noaa.gov/thredds/iso/crm/crm_socal_1as_vers2.nc</SimpleData>

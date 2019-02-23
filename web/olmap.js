@@ -312,12 +312,12 @@ selectedFeatures.on(['add', 'remove'], function() {
     if (names.length > 0) {
 	var output = '<strong>Data Access:</strong> <small> <a class="menuLinks" id="clearSel" title="Clear Selected Features" onclick=\'clearSelected(); \'>Clear Selection</a> | <a class="menuLinks" id="zoomSel" title="Zoom to Selected Features" onclick="zoomToSelected(\''+names[i]+'\')">Zoom to Seleced</a></small><hr />';
 	for (var i = 0, ii = names.length; i<ii; i++){
-	    output += '<div id="'+names[i]+'" style="padding: 20px 0 20px 0; z-index: 20;" onclick="zoomToFeature(\'' + names[i] + '\')" onmouseover="test(\''+names[i]+'\')" onmouseout="test1(\''+names[i]+'\')"><a title="DEM Data & Details" href=' + data[i] + '>' + titles[i] +  '</a><br /><small><i>'+names[i]+'.nc</i></small><br /><br />Data: <a title="Download NetCDF" href =' + ncData[i] + '>NetCDF</a>';
+	    output += '<div id="'+names[i]+'" style="padding: 20px 0 20px 0; z-index: 20;"  onmouseover="test(\''+names[i]+'\')" onmouseout="test1(\''+names[i]+'\')"><a title="DEM Data & Details" href=' + data[i] + '>' + titles[i] +  '</a> | <a class="menuLinks" title="zoom" onclick="zoomToFeature(\'' + names[i] + '\')">Zoom To</a><br /><small><i>'+names[i]+'.nc</i></small><br /><br />Data: <a title="Download NetCDF" href =' + ncData[i] + '>NetCDF</a>';
 	    if (boxExtent != null) {
 		wgsExtent = ol.proj.transformExtent(boxExtent, 'EPSG:3857', 'EPSG:4326');
-		output += ' | <a title="Subset Boundary: '+wgsExtent[0].toFixed(4)+", "+wgsExtent[1].toFixed(4)+", "+wgsExtent[2].toFixed(4)+", "+wgsExtent[3].toFixed(4)+'" href="'+ wcsUrl[i] + '?service=WCS&version=1.0.0&request=GetCoverage&coverage='+ zvar[i] + '&bbox=' + wgsExtent[0] + ',' + wgsExtent[1] + ',' + wgsExtent[2] + ',' + wgsExtent[3] + '&format=NetCDF3">Subset</a><br />Metadata: <a title="DEM Metadata" href =' + metaData[i] + '>ISO</a> | <a title="DEM NCML Metadata" href=' + NCML[i] + '>NCML</a> | <a title="Download KML Boundary" href="/map/data/kml">KML</a></div><hr />';
+		output += ' | <a title="Subset Boundary: '+wgsExtent[0].toFixed(4)+", "+wgsExtent[1].toFixed(4)+", "+wgsExtent[2].toFixed(4)+", "+wgsExtent[3].toFixed(4)+'" href="'+ wcsUrl[i] + '?service=WCS&version=1.0.0&request=GetCoverage&coverage='+ zvar[i] + '&bbox=' + wgsExtent[0] + ',' + wgsExtent[1] + ',' + wgsExtent[2] + ',' + wgsExtent[3] + '&format=NetCDF3">Subset</a><br />Metadata: <a title="DEM Metadata" href =' + metaData[i] + '>ISO</a> | <a title="DEM NCML Metadata" href=' + NCML[i] + '>NCML</a> | <a title="Download KML Boundary" href="/data/kml">KML</a></div><hr />';
 	    } else {
-		output += '<br />Metadata: <a title="DEM Metadata" href =' + metaData[i] + '>ISO</a> | <a title="DEM NCML Metadata" href=' + NCML[i] + '>NCML</a> | <a title="Download KML Boundary" href="/map/data/kml">KML</a></div><hr />';
+		output += '<br />Metadata: <a title="DEM Metadata" href =' + metaData[i] + '>ISO</a> | <a title="DEM NCML Metadata" href=' + NCML[i] + '>NCML</a> | <a title="Download KML Boundary" href="/data/kml">KML</a></div><hr />';
 	    }
 	}
 	infoBox.innerHTML = output;
@@ -352,11 +352,12 @@ document.getElementById('select').onclick = function() {
     allLayers.forEach(function(layer) {
 	selectedFeatures.clear();
 	if (layer.get('title') != 'sat' && layer.get('title') != 'subset') {
-	    if (selectValue == 'All') {		
+	    if (selectValue == 'All') {
 		layer.setVisible(true);
 	    } else {
 		if (layer.get('title') == selectValue) {
 		    layer.setVisible(true);
+		    zoomBox.innerHTML = '<a class="menuItem" onclick="map.getView().fit([' + layer.getSource().getExtent() + '], map.getSize())">Zoom to Layer Extent</a>';
 		} else {
 		    layer.setVisible(false);
 		}
